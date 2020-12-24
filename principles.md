@@ -14,7 +14,7 @@ Endpoints that are expected to return the same objects (e.g. Tweets) are also ex
 
 A new API version will be issued if the API design requires a breaking change. A breaking change is a change that will require developers to significantly change their current implementations.
 
-Once a new version is released, the previous version is supported for 12 months, while the now-new current version is supported until the next breaking change. Developers should expect new API versions every 12 months.
+Once a new version is released, the previous version is supported for 12 months, while the now-new current version is supported until the next breaking change. Developers should expect new API versions no more frequently than once every 12 months.
 
 ## Authentication
 
