@@ -22,7 +22,7 @@ Before submitting a proposal, we strongly encourage you to start a discussion by
 -   When a submission is accepted, it means that Twitter agrees in principle with the proposed changes. This does not mean that the proposal will be immediately implemented.
 -   While all decisions are final and may not be appealed, rejected proposals can be revised and resubmitted, as long as they respect the [general principles of the Twitter API platform](principles.md).
 -   It is the responsibility of the authors to check that the proposal is not a duplicate of a previously accepted or rejected proposal.
--   Submissions must adhere to the [general principles of the Twitter API platform](principles.md).. Submissions that do not meet these requirements may be rejected without a review. In this case, a core team member (possibly the member who flagged the rejection candidate) will assign themselves as a review manager to execute the rejection, or to ask the author to submit a revision.
+-   Submissions must adhere to the [general principles of the Twitter API platform](principles.md). Submissions that do not meet these requirements may be rejected without a review. In this case, a core team member (possibly the member who flagged the rejection candidate) will assign themselves as a review manager to execute the rejection, or to ask the author to submit a revision.
 -   A review can terminate early when a proposal is withdrawn from consideration, or when a decision can be made within the review period.
 
 ### Statuses
@@ -36,3 +36,4 @@ At any given time, a proposal can be in one of the following statuses:
 -   **Rejected.** The proposal has been reviewed and rejected.
 -   **Approved.** The proposal has been reviewed and approved.
 -   **Revision needed.** The proposal has been reviewed but it needs to be sent back to the authors for changes before it can be rejected or approved.
+-   **Superseded.** A newer or more relevant proposal or implementation makes this proposal obsolete or no longer applicable. This status applies to open or approved proposals.
