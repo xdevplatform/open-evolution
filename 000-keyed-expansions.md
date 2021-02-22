@@ -53,8 +53,8 @@ $ twurl '/2/tweets?ids=20,21&expansions=author_id'
 
 There are two problems with the current implementation:
 
-1. There is no explicit reference or mapping to what entity needs to be looked up in `includes`. In this example `author_id` matches to `includes.users.id`, but that is not immediately explicity to a user unless the documentation is consulted.
-1. `includes` returns zero or more arrays. The user needs to cycle through the content of each array to lookup the information requested, which is clearly introduces problem a subotimal computational resource usage, especially over a high number of requests.
+1. There is no explicit reference or mapping to what entity needs to be looked up in `includes`. In this example `author_id` matches to `includes.users.id`, but that is not immediately explicit to a user unless the documentation is consulted.
+1. `includes` returns zero or more arrays. The user needs to cycle through the content of each array to lookup the information requested, which is clearly introduces problem a suboptimal computational resource usage, especially over a high number of requests.
 
 This is particularly relevant when requesting expansion and looking up multiple results at the same time; this is the case for Search or Follower graph, where the user is requesting enough data to display tweets on mobile devices with enough data to satisfy Twitter's display requirement policy.
 
