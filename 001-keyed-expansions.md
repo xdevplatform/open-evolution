@@ -5,8 +5,8 @@
 -   Authors:
     -   Daniele ([Twitter](https://twitter.com/i_am_daniele), [Github](https://github.com/iamdaniele))
 
--   Review Manager: TBD (this will be filled by the review manager)
--   Status: Open
+-   Review Manager: Brent Halsey [Github](https://github.com/bhalsey)
+-   Status: Approved
 
 ## Introduction
 
@@ -239,7 +239,7 @@ The payload structure will change from an JSON array to a JSON dictionary:
 }
 ```
 
-In OpenAPI, this could be implemented by coding an `addiionalProperties` payload, keyed to be a string:
+In OpenAPI, this could be implemented by coding an `additionalProperties` payload, keyed to be a string:
 
 ```yaml
 Expansions:
@@ -289,7 +289,7 @@ There are some alternatives to this proposed approach.
 
 ### Do nothing
 
-Doing nothing will keep the need to perform lookups on each request payload; developers may end up creating additional structures to optimize lookups in case of high usage, which adds complexity for those developers who use the API on a large scale. For every developer, regardless of their expertise, it's an unnecessary obstacle that can be removed, so they can focus on less foundational issues. In the longer term, this can be a hurdle for all developers who use he API in large volumes.
+Doing nothing will keep the need to perform lookups on each request payload; developers may end up creating additional structures to optimize lookups in case of high usage, which adds complexity for those developers who use the API on a large scale. For every developer, regardless of their expertise, it's an unnecessary obstacle that can be removed, so they can focus on less foundational issues. In the longer term, this can be a hurdle for all developers who use the API in large volumes.
 
 ### Expand objects in-place
 
