@@ -1,6 +1,6 @@
 # Retweets
 
--   Proposal: #4
+-   Proposal: https://github.com/twitterdev/open-evolution/pull/4
 -   Discussion: (link to Github issue related to this proposal)
 -   Authors:
     -   Igor Brigadir (@igorbrigadir, @igorbrigadir)
