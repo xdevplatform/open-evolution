@@ -1,6 +1,6 @@
 # Retweets
 
--   Proposal: (link to Github PR related to this proposal)
+-   Proposal: #4
 -   Discussion: (link to Github issue related to this proposal)
 -   Authors:
     -   Igor Brigadir (@igorbrigadir, @igorbrigadir)
