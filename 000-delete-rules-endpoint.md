@@ -1,6 +1,6 @@
 # Separate endpoint for deleting filtered stream rules
 
--   Proposal: (link to Github PR related to this proposal)
+-   Proposal: [#7](https://github.com/twitterdev/open-evolution/pull/7)
 -   Discussion: (link to Github issue related to this proposal)
 -   Authors:
     -   Shubham Parihar ([Twitter](https://twitter.com/iShiibi), [Github](https://github.com/iShibi))
