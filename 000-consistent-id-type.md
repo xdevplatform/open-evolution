@@ -3,7 +3,7 @@
 -   Proposal: (link to Github PR related to this proposal)
 -   Discussion: (link to Github issue related to this proposal)
 -   Authors:
-    -   rMaxiQp (@NitDef, @rMaxiQp)
+    -   Max Qian (@NitDef, @rMaxiQp)
 
 -   Review Manager: TBD (this will be filled by the review manager)
 -   Status: Open
@@ -65,7 +65,9 @@ Current designs:
 
 The proposed update:
 
-1. Update the tweet data that is returned from filter stream
+1. 
+
+Update the tweet data that is returned from filter stream
 
 ```
 {
@@ -79,6 +81,24 @@ The proposed update:
             "tag": "dog videos"
         }
     ]
+}
+```
+
+OR update the matching_rule's ID to number instead
+
+```
+{
+  data: [
+    {
+      value: 'cats has:videos',
+      tag: 'cats videos',
+      id: 1437524638125346816
+    }
+  ],
+  meta: {
+    sent: '2021-09-13T21:12:36.349Z',
+    summary: { created: 1, not_created: 0, valid: 1, invalid: 0 }
+  }
 }
 ```
 
