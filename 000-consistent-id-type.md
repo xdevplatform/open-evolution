@@ -1,6 +1,6 @@
 # Proposal title
 
--   Proposal: (link to Github PR related to this proposal)
+-   Proposal: https://github.com/twitterdev/open-evolution/pull/8
 -   Discussion: (link to Github issue related to this proposal)
 -   Authors:
     -   Max Qian (@NitDef, @rMaxiQp)
