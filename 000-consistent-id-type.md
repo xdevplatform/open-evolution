@@ -19,8 +19,7 @@ There seems to be a [type inconsistency issue](https://twittercommunity.com/t/fi
 
 ## Proposed solution
 
-1. Making sure we provide a consistent type for matching rule's ID
-2. Exposing `id_str` (which is provided in v1.1 endpoints) as the ground truth
+Make sure we set all matching rule IDs as type `string`
 
 ## Detailed design
 
@@ -65,8 +64,6 @@ Current designs:
 
 The proposed update:
 
-1. 
-
 Update the tweet data that is returned from filter stream
 
 ```
@@ -84,46 +81,9 @@ Update the tweet data that is returned from filter stream
 }
 ```
 
-OR update the matching_rule's ID to number instead
-
-```
-{
-  data: [
-    {
-      value: 'cats has:videos',
-      tag: 'cats videos',
-      id: 1437524638125346816
-    }
-  ],
-  meta: {
-    sent: '2021-09-13T21:12:36.349Z',
-    summary: { created: 1, not_created: 0, valid: 1, invalid: 0 }
-  }
-}
-```
-
-2. Add `id_str` to the tweet data that is returned from filter stream
-
-```
-{
-    "data": {
-        "id": "1437525241786425353",
-        "text": "Footage of the semi-final match of the inaugural women's Clear Currency All-Ireland T20 Cup, broadcast by Cricket Ireland, showed the dog running onto the pitch to intercept the ball during play 🐶\n\nToday's top stories: https://t.co/4ozTbgvoxl https://t.co/C2r238OUlZ"
-    },
-    "matching_rules": [
-        {
-            "id": 1436114489988968481,
-            "id_str": "1436114489988968481"
-            "tag": "dog videos"
-        }
-    ]
-}
-```
-
 ## Compatibility, breaking changes and migrations
 
-1. Need to do a type conversion
-2. An additional field is required
+Need to enforce matching rule ID to be type string throughout all endpoints
 
 ## Alternatives considered
 
