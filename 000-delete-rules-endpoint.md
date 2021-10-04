@@ -5,8 +5,8 @@
 -   Authors:
     -   Shubham Parihar ([Twitter](https://twitter.com/iShiibi), [Github](https://github.com/iShibi))
 
--   Review Manager: TBD (this will be filled by the review manager)
--   Status: Open
+-   Review Manager: mmerritt
+-   Status: rejected
 
 ## Introduction
 
