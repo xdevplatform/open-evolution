@@ -5,8 +5,8 @@
 -   Authors:
     -   Max Qian (@NitDef, @rMaxiQp)
 
--   Review Manager: TBD (this will be filled by the review manager)
--   Status: Open
+-   Review Manager: @iamdaniele
+-   Status: Superseded (platform change to return ID as strings has been released in production)
 
 ## Introduction
 
