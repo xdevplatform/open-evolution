@@ -118,7 +118,8 @@ An example from the mutes/users endpoint for creating a new muted user using the
   "follow_request_sent": false,
   "notifications": false,
   "muting": true
-}```
+}
+```
 
 A similar approach could be used for muted words as outlined further in the proposed solution section below.
 
