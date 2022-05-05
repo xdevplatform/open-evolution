@@ -5,8 +5,8 @@
 -   Author:
     -   Redouane Bali ([@RedouaneBali](https://twitter.com/RedouaneBali), [Redouane59](https://github.com/redouane59))
 
--   Review Manager: TBD (this will be filled by the review manager)
--   Status: Open
+-   Review Manager: Daniele ([Twitter](https://twitter.com/i_am_daniele), [Github](https://github.com/iamdaniele))
+-   Status: Rejected
 
 ## Introduction
 
