@@ -1,10 +1,10 @@
 # Proposal title
 
--   Proposal: (link to Github PR related to this proposal)
--   Discussion: (link to Github issue related to this proposal)
+-   Proposal: (link to GitHub PR related to this proposal)
+-   Discussion: (link to GitHub issue related to this proposal)
 -   Authors:
-    -   Author 1 (Twitter, Github)
-    -   Author 2 (Twitter, Github)
+    -   Author 1 (Twitter, GitHub)
+    -   Author 2 (Twitter, GitHub)
 
 -   Review Manager: TBD (this will be filled by the review manager)
 -   Status: Open

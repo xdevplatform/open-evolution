@@ -16,9 +16,11 @@ A new API version will be issued if the API design requires a breaking change. A
 
 Once a new version is released, the previous version is supported for 12 months, while the now-new current version is supported until the next breaking change. Developers should expect new API versions no more frequently than once every 12 months.
 
+New features or additions will be considered for the current version of the API only. Previous versions remain supported for use for 12 months, and once a new version is released, the Open Evolution process will expect proposals to be submitted against this version.
+
 ## Authentication
 
-Most endpoints will require authentication, and the authentication method will be OAuth 1.0a or OAuth 2.0. We encourage submitting proposals about scopes and improvements to data granularity in the context of these two authentication methods. Because we are very strict on protecting the trust our developers and users put in our service, it's unlikely that we will consider different authentication methods. We take data protection and user privacy very seriously. When submitting a proposal for his aspect of the API, we strongly recommend describing the implications on data security, and expect these proposals to encounter increased scrutiny.
+Most endpoints will require authentication, and the authentication method will be OAuth 1.0a or OAuth 2.0. We encourage submitting proposals about scopes and improvements to data granularity in the context of the OAuth 2.0 authentication method. Because we are very strict on protecting the trust our developers and users put in our service, it's unlikely that we will consider different authentication methods. We take data protection and user privacy very seriously. When submitting a proposal for this aspect of the API, we strongly recommend describing the implications on data security, and expect these proposals to encounter increased scrutiny.
 
 ## Rate limiting and activity quotas
 
