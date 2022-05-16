@@ -11,8 +11,8 @@ Before submitting a proposal, we strongly encourage you to start a discussion by
 ## Workflow
 
 1.  Fork this repository.
-2.  Make a copy [proposal-template.md](proposal-template.md), and rename it so that the title describes the proposal (it can have the same title as your proposal). Use a format like `000-your-proposal-name.md`, where `your-proposal-name` is a descriptive name (e.g. the proposal title), keeping `000` for the numeric part.
-3.  Fill the proposal template by following the instructions on the template.
+2.  Make a copy of [proposal-template.md](proposal-template.md), and rename it so that the title describes the proposal (it can have the same title as your proposal). Use a format like `000-your-proposal-name.md`, where `your-proposal-name` is a descriptive name (e.g. the proposal title), keeping `000` for the numeric part.
+3.  Fill the proposal template by following the instructions within.
 4.  Submit a Pull Request. As soon as a review manager is available, they will contact the authors to discuss the proposal.
 5.  Once a review is scheduled, be ready and prepared to discuss your proposal with the review manager. Expect the process to last no more than 15 working days.
 6.  At the end of the review process, a decision will be made and the proposal can be approved or rejected. The review manager can also request you to submit a revision; in this case, the proposal is sent back and another review will be scheduled.
