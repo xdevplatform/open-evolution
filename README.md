@@ -1,6 +1,6 @@
 # Twitter API Open Evolution
 
-This repository allows you to submit proposals to change aspects of the Twitter public API.
+This repository allows you to submit proposals to change aspects of the Twitter public API. You can read more about this process below, and in [the announcement post]([url](https://twittercommunity.com/t/introducing-twitter-open-evolution/158770)) on the Twitter Developer Community forums.
 
 ## Submitting a proposal
 
