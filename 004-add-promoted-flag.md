@@ -35,7 +35,7 @@ GET https://api.twitter.com/2/users/:id/tweets?tweet.fields=promoted
 
 ## Response
 
-```dart
+```json
 {
   "data": [
     {
