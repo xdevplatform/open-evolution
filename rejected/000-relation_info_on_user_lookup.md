@@ -23,7 +23,7 @@ To me, the payload of the user lookup endpoint should contain informations about
 
 ## Detailed design
 
-Adding two new fields in the API response of users/lookup endpoint, i.e :
+Adding two new fields in the API response of users/lookup endpoint, i.e :.
 
 ```
 {
