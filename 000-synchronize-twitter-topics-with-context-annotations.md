@@ -10,7 +10,7 @@
 
 ## Introduction
 
-[Twitter Topics](https://blog.twitter.com/en_us/topics/product/2020/topics-behind-the-tweets) have been introduced since 2020. While most of them can be found as entities 
+[Twitter Topics](https://blog.twitter.com/en_us/topics/product/2020/topics-behind-the-tweets) have been introduced since 2020. While most can be found as entities 
 of the context domain 131 Unified Twitter Taxonomy, some are missing and cannot be queried over the API.
 
 ## Motivation
@@ -36,7 +36,7 @@ No new changes to the API design are needed to address this problem.
 Nothing changes in terms of API design nor endpoints. The aim here is to have more synchronization between the entities of domain 131 of the Unified Twitter Taxonomy and the Twitter Topics (unless it's personalized). 
 
 For example, if a Twitter Topic about "Adidas Baseball" (which is already an entity of context 48 "Product" -> context id: 48, entity id: 10040353848) were to appear, then we can simply add this entity to context 131 as well.
-If we search for tweets with context id 131 or 48 and entity id 10040353848, we would get tweets about Adidas Baseball. This same entity id will be used to identify the page of the Twitter Topic.
+That way, if we search for tweets with context id 131 or 48 and entity id 10040353848 using the API, we would get tweets about Adidas Baseball. This same entity id will be used to identify the page of the Twitter Topic.
 
 ## Detailed design
 
@@ -55,5 +55,4 @@ it was "Viral Tweets" which is a very convenient topic to retrieve said viral tw
 Since it's not available as an entity on the API, the only straightforward way is to scrape the ["Viral Tweets" Topic page](https://twitter.com/i/topics/1284234742661963776), which only displays 
 around 60 said tweets at a time. 
 
-Another solution is to keep retrieving random tweets and filtering myself those that I consider to be viral. But this will not get as good nor as many results as the ones found on the "Viral Tweets" Topic page, and will
-quickly hit the API rate limit before retrieving a good amount of them.
+Another solution is to keep retrieving random tweets and filtering those that I consider to be viral. But this will not get as good nor as many results as the ones found on the "Viral Tweets" Topic page, and will quickly hit the API rate limit before retrieving a good amount of them.
