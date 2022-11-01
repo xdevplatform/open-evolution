@@ -35,7 +35,7 @@ No new changes to the API design are needed to address this problem.
 
 Nothing changes in terms of API design nor endpoints. The aim here is to have more synchronization between the entities of domain 131 of the Unified Twitter Taxonomy and the Twitter Topics (unless it's personalized). 
 
-For example, if a Twitter Topic about "Adidas Baseball" (which is already an entity of context 48 "Product" -> context id: 48, entity id: 10040353848) were to appear, then we can simply add this entity to context 131 as well.
+For example, if a Twitter Topic about "Adidas Baseball" (which is already an entity of context 48 "Product" => context id: 48, entity id: 10040353848) were to appear, then we can simply add this entity to context 131 as well.
 That way, if we search for tweets with context id 131 or 48 and entity id 10040353848 using the API, we would get tweets about Adidas Baseball. This same entity id will be used to identify the page of the Twitter Topic.
 
 ## Detailed design
