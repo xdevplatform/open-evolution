@@ -1,7 +1,7 @@
 # Synchronize Twitter Topics with context annotations
 
--   Proposal: (link to GitHub PR related to this proposal)
--   Discussion: (link to GitHub issue related to this proposal)
+-   Proposal: [(link to GitHub PR related to this proposal)](https://github.com/twitterdev/open-evolution/pull/28)
+-   Discussion: [(link to GitHub issue related to this proposal)](https://github.com/twitterdev/open-evolution/issues/27)
 -   Authors:
     -   Stephane Selim ([Twitter](https://twitter.com/selim_epfl), [GitHub](https://github.com/stefnans))
 
